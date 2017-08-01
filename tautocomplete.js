@@ -9,7 +9,7 @@
             columns: [],
             hide: [false],
             onchange: null,
-            norecord: "No Records Found",
+            norecord: "没有匹配结果",
             dataproperty: null,
             regex: "^[a-zA-Z0-9\b]+$",
             data: null,
@@ -228,6 +228,11 @@
                 if ($.isFunction(settings.ajax.success)) {
                     var data = settings.ajax.success.call(this, jsonData);
                     jsonParser(data);
+                     delay(function () {
+	                     if(data.length==1)
+                        	select();
+                        }, 1000);
+                   
                 }
             }
         }
