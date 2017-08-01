@@ -7,11 +7,11 @@
     left: 0px;
     text-align: left;
     position: absolute;
-box-shadow: 0px 0px 20px rgba(0,0,0,0.10), 0px 10px 20px rgba(0,0,0,0.05), 0px 20px 20px rgba(0,0,0,0.05), 0px 30px 20px rgba(0,0,0,0.05);
+box-shadow: 0px 0px 0px rgba(0,0,0,0.10), 0px 10px 20px rgba(0,0,0,0.05), 0px 20px 20px rgba(0,0,0,0.05), 0px 30px 20px rgba(0,0,0,0.05);
 }
     .adropdown table {
         font-family: 'Arial';
-        margin: 35px 1px 0px 1px;
+        /*margin: 35px 1px 0px 1px;*/
         border-collapse: collapse;
         border-bottom: 2px solid #00cccc;
         border-spacing: 0px;
@@ -81,7 +81,7 @@ box-shadow: 0px 0px 20px rgba(0,0,0,0.10), 0px 10px 20px rgba(0,0,0,0.05), 0px 2
         font-size: 1em;
         transition: background 0.3s ease-in-out;
         width: 100%;
-        padding: 2px 25px 2px 5px;
+        /*padding: 2px 25px 2px 5px;*/
         outline: 0;
         border-left: 1px solid #ccc;
         border-top: 1px solid #ccc;
@@ -91,7 +91,7 @@ box-shadow: 0px 0px 20px rgba(0,0,0,0.10), 0px 10px 20px rgba(0,0,0,0.05), 0px 2
     }
 
         .acontainer input:focus {
-            padding: 2px 25px 2px 5px;
+            /*padding: 2px 25px 2px 5px;*/
             margin: 0px;
             outline: none;
             border-color: #9ecaed;
@@ -105,7 +105,7 @@ box-shadow: 0px 0px 20px rgba(0,0,0,0.10), 0px 10px 20px rgba(0,0,0,0.05), 0px 2
 .inputfocus {
     outline: 0;
     min-width: 140px;
-    margin: 5px 0px 5px 5px !important;
+   /* margin: 5px 0px 5px 5px !important;*/
     position: relative;
     z-index: 1000;
 }
@@ -113,7 +113,7 @@ box-shadow: 0px 0px 20px rgba(0,0,0,0.10), 0px 10px 20px rgba(0,0,0,0.05), 0px 2
     background: url(img/loading.gif) no-repeat right center;
 }
 .word-highlight{
-    background-color: #FFFF88;
+    /*background-color: #FFFF88;*/
 }
 .highlight {
     z-index: 999;
