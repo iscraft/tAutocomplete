@@ -14,11 +14,13 @@
                     width: "500px",
                     columns: ['Country', 'Code', 'Capital'],
                     ajax: {
-                        url: "sampledata.json",
+                        //url: "sampledata.json",
+                        url: "/get_info",
                         type: "GET",
-                        data: function () {
-                            return [{ test: text2.searchdata() }];
-                        },
+                        /*data: function () {
+                            return [{ test: rep.searchdata()}];
+                        },*/
+                        data:{action:'get'},//get_info check resource
                         success: function (data) {
                             
                             var filterData = [];
