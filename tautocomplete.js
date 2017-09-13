@@ -319,7 +319,9 @@
             }
             
             el.ddTextbox.val(selected.find('td').eq(1).text());
-            orginalTextBox.val(selected.find('td').eq(0).text() + '#$#' + selected.find('td').eq(1).text());
+            //orginalTextBox.val(selected.find('td').eq(0).text() + '#$#' + selected.find('td').eq(1).text());
+            //orginalTextBox.val(selected.find('td').eq(0).text() + selected.find('td').eq(1).text());
+            orginalTextBox.val(selected.find('td').eq(1).text());
             hideDropDown();
             onChange();
             el.ddTextbox.focus();
